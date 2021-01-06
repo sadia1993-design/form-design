@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h3>Sample Request Form</h3>
+        <hr>
+        <p>Sample requests must be submitted by 3 PM the day prior you need them and require a manager’s approval. Fill out the following to submit your request:</p>
+       
+       <!-- sample form start -->
+        <form action="#" method="POST" class="form-design">
+           <table border="0">
+              <tr>
+                  <td>salesperson requesting sample: * </td>
+                  <td><input type="text" name="name" required="This field is required* "></td>
+              </tr>
+              <tr>
+                <td>salesperson ID Number: * </td>
+                <td><input type="text" name="id" required="This field is required* "></td>
+              </tr>
+              <tr>
+                <td>Area Sales Manager: </td>
+                <td><input type="text" name="area" required="This field is required* "></td>
+              </tr>
+              <tr>
+                <td>Reason for Request: </td>
+                <td><textarea name="reason" id="" cols="30" rows="10"></textarea></td>
+              </tr>
+              <tr>
+                <td>Day of Pickup: </td>
+                <td>
+                    <select name="day" id="">
+                        <option value=""></option>
+                        <option value="">Monday</option>
+                        <option value="">Tuesday</option>
+                        <option value="">Wednesday</option>
+                        <option value="">Thursday</option>
+                        <option value="">Friday</option>
+                        <option value="">Saturday</option>
+                    </select>
+                </td>
+              </tr>
+              <tr>
+                <td> </td>
+                <td><input type="submit" value="Submit"></td>
+              </tr>
+           </table>
+        </form>
+
+          <!-- sample form end -->
+    </div>
+</body>
+</html>
